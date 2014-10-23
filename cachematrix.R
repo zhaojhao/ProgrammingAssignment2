@@ -1,3 +1,7 @@
+## This two functions returns the inverse of an input matrix from the cache
+## of the last result on the same matrix.
+##
+##
 ## How to test:
 ##>  mat <- matrix(runif(9), nrow=3)   # generate a random matrix
 ##>  cas <- makeCacheMatrix(mat)       # generate cache
